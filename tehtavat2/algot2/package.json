@@ -1,0 +1,21 @@
+{
+  "name": "algot2",
+  "version": "1.0.0",
+  "description": "algorithm exercise",
+  "author": "tuito",
+  "license": "ISC",
+  "main": "algot2.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1",
+    "readline-sync": "^1.4.10"
+  }
+}

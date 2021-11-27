@@ -1,0 +1,23 @@
+{
+  "name": "dst9",
+  "version": "1.0.0",
+  "description": "Binary Search Tree",
+  "main": "dst9.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "thiid",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.1.1"
+  },
+  "dependencies": {
+    "bst-js": "^1.0.5"
+  }
+}

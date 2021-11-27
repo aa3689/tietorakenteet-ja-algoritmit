@@ -1,0 +1,62 @@
+Node {
+  compare: [Function: defaultComparator],
+  right: Node {
+    compare: [Function: defaultComparator],
+    right: null,
+    left: Node {
+      compare: [Function: defaultComparator],
+      right: [Node],
+      left: null,
+      value: 12
+    },
+    value: 23
+  },
+  left: Node {
+    compare: [Function: defaultComparator],
+    right: Node {
+      compare: [Function: defaultComparator],
+      right: null,
+      left: [Node],
+      value: 6
+    },
+    left: Node {
+      compare: [Function: defaultComparator],
+      right: null,
+      left: null,
+      value: 1
+    },
+    value: 2
+  },
+  value: 10
+}
+
+Rakenne on hierakinen. Muut nodet sijaitsevat hierarkiassa
+juurinoden (10) sisällä yllä olevassa oliorakenteessa.
+
+      10
+    /    \
+   2     23
+  / \    /
+ 1   6  12
+    /     \
+   5      21
+
+Breadth-first search hakee nodet puusta vasemmalta oikealle vaakataso kerrallaan:
+10
+2
+23
+1
+6
+12
+5
+21
+
+Depth-first search hakee puusta nodet haara kerrallaan vasemmalta lähtien:
+10
+2
+1
+6
+5
+23
+12
+21

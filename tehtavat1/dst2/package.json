@@ -1,0 +1,23 @@
+{
+  "name": "dst2",
+  "version": "1.0.0",
+  "description": "Data structure exercise",
+  "main": "dst2.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "tuito",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-google": "^0.14.0",
+    "mocha": "^9.1.1",
+    "chai": "^4.3.4"
+  }
+}

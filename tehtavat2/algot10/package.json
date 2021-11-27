@@ -1,0 +1,15 @@
+{
+  "name": "algot10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "algot10.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "decision-tree": "^0.3.7"
+  }
+}
