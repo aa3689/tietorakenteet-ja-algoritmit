@@ -1,5 +1,3 @@
-Kurssin 'Tietorakenteet ja algoritmit HTKA0060-3001' valmiit tehtävät
+Kurssin 'Tietorakenteet ja algoritmit HTKA0060-3001' valmiit tehtävät. Kurssi suoritettu 11/2021.
 
-Toni Hiidenvuo / AA3689
-
-Keskusteluaika tiistaina 30.11. klo 11:00.
+Yksikkötestit olivat opettajan käsialaa. Tehtäväni oli kirjoittaa (ja komenntoida) koodi, joka läpäisee testit. Tehtävänanto on liitetty jokaisen tiedoston alkuun.
